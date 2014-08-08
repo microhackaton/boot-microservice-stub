@@ -59,9 +59,9 @@ task wrapper(type: Wrapper) {
 // TO EXTRACT TO micro-stub-infra plugin
 
 ext {
-    repoUsername = ''
-    repoPassword = ''
-    repoUrl = 'http://repo.4finance.net/nexus/content/repositories/Pipeline'
+    repoUsername = 'deployment'
+    repoPassword = 'deployment123'
+    repoUrl = 'http://nexus.microhackathon.pl/content/repositories/releases/'
     depsToExclude = [group: 'org.codehaus.groovy', name: 'groovy-all']
 }
 
